@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #BEADFA;
+    font-family: monospace;
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: #D0BFFF;
+}
+.intro{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.intro img{
+    margin-top: 20px;
+    height: 300px;
+    width: 350;
+}
+.cloud1{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    margin-left: 250px;
+    margin-top: -40px;
+}
+.cloud2{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 70%;
+    height: 100px;
+}
+.clodu3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-left: 300px;
+    
+}
+.cloud4{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    margin-left: 360px;
+    margin-top: 40px;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    margin: 20px;
+    color: #FFF8C9;
+    width: 60%;
+    border-width: 5px;
+}
+
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    justify-content: center;
+}
+.profle .rightimg{
+    margin-right: 200px;
+    height: 200px;
+    width: 200px;
+}
+.profle .leftimg{
+    margin-right: 200px;
+    height: 200px;
+    width: 200px;
+}
+.intro p{
+    font-size: 40px;
+}
+
+.leftimg{
+    margin-left: 200px;
+    height: 200px;
+    width: 200px;
+}
+
+
+.bottom-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    background-color: #DFCCFB;
+
+}
+.links{
+    margin: 30px;
+    height: 50px;
+    width: 50px;
+}
+.container img{
+    margin: 20px;
+    height: 250px;
+    width: 500;
+}
+@media screen and(max-width:400px){
+    *{
+        margin: 0px;
+    }
+    body{
+        background-color: #BEADFA;
+        font-family: monospace;
+    }
+    
+    .navbar{
+        height: 100px;
+        width: 100%;
+        background-color: #D0BFFF;
+    }
+    .intro{
+        height: 700px;
+        width: 100%;
+        display: flex;
+        font-size: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .intro img{
+        margin-top: 20px;
+        height: 200px;
+        width: 350;
+    }
+    .cloud1{
+        position: absolute;
+        height: 100px;
+        width: 200px;
+        margin-left: 250px;
+        margin-top: -40px;
+    }
+    .cloud2{
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 70%;
+        height: 100px;
+    }
+    .clodu3{
+        position: absolute;
+        height: 200px;
+        width: 100px;
+        margin-left: 400px;
+        
+    }
+    .cloud4{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        margin-left: 360px;
+        margin-top: 40px;
+    }
+    hr{
+        border-style: none;
+        border-top: dotted;
+        margin: 20px;
+        color: #FFF8C9;
+        width: 60%;
+        border-width: 5px;
+    }
+    
+    .container{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .profile{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        justify-content: center;
+    }
+    .profle .rightimg{
+        margin-right: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    .profle .leftimg{
+        margin-right: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    .intro p{
+        font-size: 40px;
+    }
+    
+    .leftimg{
+        margin-left: 200px;
+        height: 200px;
+        width: 200px;
+    }
+    
+    
+    .bottom-navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        margin-top: 30px;
+        height: 100px;
+        width: 100%;
+        background-color: #DFCCFB;
+    
+    }
+    .links{
+        margin: 30px;
+        height: 50px;
+        width: 50px;
+    }
+    .container img{
+        margin: 20px;
+        height: 250px;
+        width: 500;
+    }
+
+    
+}
